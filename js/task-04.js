@@ -8,9 +8,9 @@ btnAddNumber.addEventListener('click', addNumber);
 btnMinusNumber.addEventListener('click', minusNumber);
 function addNumber(event) {
     number += 1;
-    counterValue.textContent = numb;
+    counterValue.textContent = number;
 };
 function minusNumber(event) {
     number -= 1;
-    counterValue.textContent = numb;
+    counterValue.textContent = number;
 }
